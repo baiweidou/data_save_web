@@ -42,5 +42,5 @@ mongoose.connect('mongodb://localhost:27017/qrcode_db', {
 
 // 启动服务器
 app.listen(PORT, () => {
-  console.log(`服务器运行在 http://localhost:${PORT}`);
+  console.log(`服务器运行在 http://0.0.0.0:${PORT}`);
 }); 
